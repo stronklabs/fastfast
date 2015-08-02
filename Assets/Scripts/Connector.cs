@@ -1,10 +1,20 @@
 ﻿using UnityEngine;
-using System.Collections;
+using UObject = UnityEngine.Object;
+using GObject = UnityEngine.GameObject;
+using URandom = UnityEngine.Random;
+using UnityEngine.UI;
+using UnityEngine.Audio;
 using UnityEngine.Networking;
+using UnityEditor;
+using System;
+using System.Linq;
+using System.Collections;
+using System.Collections.Generic;
+
 using UnityEngine.Networking.Types;
 using UnityEngine.Networking.Match;
 
-public class Connector : MonoBehaviour {
+public class Connector : ExtBehaviour {
     public int ListSize = 10;
     public uint PlayerCountPerRoom = 4;
     public bool Advertise = true;
@@ -36,7 +46,7 @@ public class Connector : MonoBehaviour {
                         }
                     });
                 } else {
-                    matcher.CreateMatch(Random.value.ToString(), PlayerCountPerRoom, Advertise, "", (created) => {
+					matcher.CreateMatch(URandom.value.ToString(), PlayerCountPerRoom, Advertise, "", (created) => {
                         if (created.success) {
                             Debug.Log("Create match succeeded");
                             Utility.SetAccessTokenForNetwork(created.networkId, new NetworkAccessToken(created.accessTokenString));
