@@ -49,12 +49,8 @@ public class Player : Character {
         }
     }
 
-    override public void ReceiveDamage(Damage damage) {
+    override public void ApplyDamage(Damage damage) {
         stats.Health.current -= damage.count;
-    }
-
-    override public void ReceiveBuff(Buff buff) {
-        CurrentBuffs.Add(buff);
     }
 
     void OnTriggerEnter2D(Collider2D other) {

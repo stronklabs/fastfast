@@ -10,7 +10,7 @@ using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 
-public class Stats : NetworkBehaviour {
+public class Stats : NetBehaviour {
     [System.Serializable]
     public class StaticStat {
         public float basic;
@@ -33,11 +33,11 @@ public class Stats : NetworkBehaviour {
     }
 
     public DynamicStat Health = 1;
-    public DynamicStat Mana = 1;
-    public DynamicStat Resist = 0;
-    public DynamicStat MoveSpeed = 0.1f;
-    public DynamicStat JumpStrength = 1;
-    public DynamicStat JumpCount = 1;
+	public DynamicStat Mana = 1;
+	public DynamicStat JumpCount = 1;
+	public StaticStat Resist = 0;
+	public StaticStat MoveSpeed = 0.1f;
+	public StaticStat JumpStrength = 1;
 
 
     void Start() {

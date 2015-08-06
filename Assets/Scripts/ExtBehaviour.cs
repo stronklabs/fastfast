@@ -11,7 +11,11 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class ExtBehaviour : MonoBehaviour {
-	// here i will make some usefull stuff
+	// right now i have no option to extend
+	// behaviour 'cause
+	// i don't know that i want
+	void Start () {
+	}
 }
 
 public class NetBehaviour : NetworkBehaviour {

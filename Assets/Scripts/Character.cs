@@ -15,16 +15,6 @@ public abstract class Character : NetworkBehaviour {
 
     public bool IsOnGround;
     public bool IsStay;
-    public List<Buff> CurrentBuffs = new List<Buff>();
-
-    public event Func<Character, Spell, int> onCast;
-    public event Func<Character, Buff, int> onBuffApply;
-    public event Func<Character, Buff, int> onBuffRemove;
-    public event Func<Character, int> onDamageApply;
-    public event Func<Character, int> onStaying;
-    public event Func<Character, int> onMoving;
-    public event Func<Character, int> onJump;
-    public event Func<Character, int> onFly;
 
     protected Stats stats;
 
@@ -32,59 +22,30 @@ public abstract class Character : NetworkBehaviour {
         if ((stats = GetComponent<Stats>()) == null) {
             throw new StatsNotFound();
         }
-
-        onCast += (a, b) => { return 0; };
-        onBuffApply += (a, b) => { return 0; };
-        onBuffRemove += (a, b) => { return 0; };
-        onDamageApply += (a) => { return 0; };
-        onStaying += (a) => { return 0; };
-        onMoving += (a) => { return 0; };
-        onJump += (a) => { return 0; };
-        onFly += (a) => { return 0; };
 	}
 	
 	void Update () {
-        if (!IsOnGround) {
-            onFly(this);
-        } else if (IsStay) {
-            onStaying(this);
-        } else {
-            onMoving(this);
-        }
-
-
-        List<Buff> toRemove = new List<Buff>();
-        foreach (Buff buff in CurrentBuffs) {
-            if (buff.duration > 0.0f) {
-                buff.Apply(this);
-                buff.duration -= Time.deltaTime;
-            } else {
-                toRemove.Add(buff);
-            }
-        }
-        foreach (Buff remove in toRemove) {
-            remove.Remove(this);
-            CurrentBuffs.Remove(remove);
-        }
 	}
 
     public abstract void MoveLeft();
     public abstract void MoveRight();
     public abstract void Stop();
+	public abstract void Jump ();
 
-    public virtual void Jump() {
-        onJump(this);
+	// on damage event we just call BroadcastMessage
+    void ReceiveDamage(Damage damage) {
+		// here we have to implement order-logic
+		foreach (Buff b in GetComponents<Buff>()) {
+			damage = b.OnDamage (damage);
+		}
+
+		ApplyDamage (damage);
     }
 
-    public virtual void ReceiveDamage(Damage damage) {
-        onDamageApply(this);
-    }
+	// here we implement on damagable characters
+	public abstract void ApplyDamage (Damage damage);
 
-    public virtual void ReceiveBuff(Buff buff) {
-        buff.Apply(this);
-    }
-
-    public virtual void CastSpell(Spell spell) {
-        onCast(this, spell);
+	public virtual void ReceiveBuff<B>() where B: Buff {
+		gameObject.AddComponent<B> ();
     }
 }
