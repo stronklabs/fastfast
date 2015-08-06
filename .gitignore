@@ -63,3 +63,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Unity under wine produce strange links
+*:
