@@ -66,3 +66,6 @@ $RECYCLE.BIN/
 
 # Unity under wine produce strange links
 *:
+
+# Remove dot-started directories (while they are hidden in UNIX-like systems)
+.*
