@@ -23,7 +23,6 @@ using UnityEngine.UI;
 using UnityEngine.Audio;
 using UnityEngine.Serialization;
 using UnityEngine.Networking;
-using UnityEditor;
 using System;
 using System.Linq;
 using System.Collections;

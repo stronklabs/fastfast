@@ -1,65 +1,65 @@
 fileFormatVersion: 2
 guid: 019c788e191641847a2f3319b3ca2ab2
-timeCreated: 1438039501
+timeCreated: 1440566143
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: minimalObjects_32x32Tiles_0
-    21300002: minimalObjects_32x32Tiles_1
-    21300004: minimalObjects_32x32Tiles_2
-    21300006: minimalObjects_32x32Tiles_3
-    21300008: minimalObjects_32x32Tiles_4
-    21300010: minimalObjects_32x32Tiles_5
-    21300012: minimalObjects_32x32Tiles_6
-    21300014: minimalObjects_32x32Tiles_7
-    21300016: minimalObjects_32x32Tiles_8
-    21300018: minimalObjects_32x32Tiles_9
-    21300020: minimalObjects_32x32Tiles_10
-    21300022: minimalObjects_32x32Tiles_11
-    21300024: minimalObjects_32x32Tiles_12
-    21300026: minimalObjects_32x32Tiles_13
-    21300028: minimalObjects_32x32Tiles_14
-    21300030: minimalObjects_32x32Tiles_15
-    21300032: minimalObjects_32x32Tiles_16
-    21300034: minimalObjects_32x32Tiles_17
-    21300036: minimalObjects_32x32Tiles_18
-    21300038: minimalObjects_32x32Tiles_19
-    21300040: minimalObjects_32x32Tiles_20
-    21300042: minimalObjects_32x32Tiles_21
-    21300044: minimalObjects_32x32Tiles_22
-    21300046: minimalObjects_32x32Tiles_23
-    21300048: minimalObjects_32x32Tiles_24
-    21300050: minimalObjects_32x32Tiles_25
-    21300052: minimalObjects_32x32Tiles_26
-    21300054: minimalObjects_32x32Tiles_27
-    21300056: minimalObjects_32x32Tiles_28
-    21300058: minimalObjects_32x32Tiles_29
-    21300060: minimalObjects_32x32Tiles_30
-    21300062: minimalObjects_32x32Tiles_31
-    21300064: minimalObjects_32x32Tiles_32
-    21300066: minimalObjects_32x32Tiles_33
-    21300068: minimalObjects_32x32Tiles_34
-    21300070: minimalObjects_32x32Tiles_35
-    21300072: minimalObjects_32x32Tiles_36
-    21300074: minimalObjects_32x32Tiles_37
-    21300076: minimalObjects_32x32Tiles_38
-    21300078: minimalObjects_32x32Tiles_39
-    21300080: minimalObjects_32x32Tiles_40
-    21300082: minimalObjects_32x32Tiles_41
-    21300084: minimalObjects_32x32Tiles_42
-    21300086: minimalObjects_32x32Tiles_43
-    21300088: minimalObjects_32x32Tiles_44
-    21300090: minimalObjects_32x32Tiles_45
-    21300092: minimalObjects_32x32Tiles_46
+    21300000: player_run_0
+    21300002: player_run_1
+    21300004: player_run_2
+    21300006: player_run_3
+    21300008: player_run_4
+    21300010: player_run_5
+    21300012: player_idle_0
+    21300014: player_idle_01
+    21300016: player_idle_2
+    21300018: player_idle_3
+    21300020: player_idle_4
+    21300022: player_idle_5
+    21300024: player_jump_0
+    21300026: player_jump_1
+    21300028: player_jump_2
+    21300030: player_jump_3
+    21300032: player_jump_4
+    21300034: player_jump_5
+    21300036: stuff_0
+    21300038: stuff_1
+    21300040: stuff_2
+    21300042: stuff_3
+    21300044: stuff_4
+    21300046: stuff_5
+    21300048: spider_idle_0
+    21300050: spider_idle_1
+    21300052: spider_idle_2
+    21300054: spider_idle_3
+    21300056: spider_death_0-a
+    21300058: spider_death_1-a
+    21300060: spider_death_2-a
+    21300062: spider_death_3-a
+    21300064: spider_death_4-a
+    21300066: spider_death_0-b
+    21300068: spider_death_1-b
+    21300070: spider_death_2-b
+    21300072: spider_death_3-b
+    21300074: spider_death_4-b
+    21300076: spider_death_5-b
+    21300078: hearth_0
+    21300080: explose_0
+    21300082: explose_1
+    21300084: explose_2
+    21300086: explose_3
+    21300088: explose_4
+    21300090: explose_5
+    21300092: help_0
     21300094: minimalObjects_32x32Tiles_47
-    21300096: minimalObjects_32x32Tiles_48
-    21300098: minimalObjects_32x32Tiles_49
-    21300100: minimalObjects_32x32Tiles_50
-    21300102: minimalObjects_32x32Tiles_51
-    21300104: minimalObjects_32x32Tiles_52
-    21300106: minimalObjects_32x32Tiles_53
-    21300108: minimalObjects_32x32Tiles_54
-    21300110: minimalObjects_32x32Tiles_55
+    21300096: key_0
+    21300098: chest_closed_0
+    21300100: chest_opened_0
+    21300102: info_0
+    21300104: bottle_0
+    21300106: trigger_0
+    21300108: door_opened_0
+    21300110: door_closed_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -105,7 +105,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: minimalObjects_32x32Tiles_0
+    - name: player_run_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,9 +113,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_1
+    - name: player_run_1
       rect:
         serializedVersion: 2
         x: 32
@@ -123,19 +123,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_2
+    - name: player_run_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 63
         y: 352
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_3
+    - name: player_run_3
       rect:
         serializedVersion: 2
         x: 96
@@ -143,9 +143,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_4
+    - name: player_run_4
       rect:
         serializedVersion: 2
         x: 128
@@ -153,9 +153,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_5
+    - name: player_run_5
       rect:
         serializedVersion: 2
         x: 160
@@ -163,9 +163,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_6
+    - name: player_idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -173,9 +173,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_7
+    - name: player_idle_01
       rect:
         serializedVersion: 2
         x: 32
@@ -183,9 +183,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_8
+    - name: player_idle_2
       rect:
         serializedVersion: 2
         x: 64
@@ -193,9 +193,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_9
+    - name: player_idle_3
       rect:
         serializedVersion: 2
         x: 96
@@ -203,9 +203,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_10
+    - name: player_idle_4
       rect:
         serializedVersion: 2
         x: 128
@@ -213,9 +213,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_11
+    - name: player_idle_5
       rect:
         serializedVersion: 2
         x: 160
@@ -223,9 +223,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_12
+    - name: player_jump_0
       rect:
         serializedVersion: 2
         x: 0
@@ -233,9 +233,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_13
+    - name: player_jump_1
       rect:
         serializedVersion: 2
         x: 32
@@ -243,9 +243,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_14
+    - name: player_jump_2
       rect:
         serializedVersion: 2
         x: 64
@@ -253,9 +253,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_15
+    - name: player_jump_3
       rect:
         serializedVersion: 2
         x: 96
@@ -263,9 +263,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_16
+    - name: player_jump_4
       rect:
         serializedVersion: 2
         x: 128
@@ -273,9 +273,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_17
+    - name: player_jump_5
       rect:
         serializedVersion: 2
         x: 160
@@ -283,9 +283,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_18
+    - name: stuff_0
       rect:
         serializedVersion: 2
         x: 0
@@ -293,9 +293,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_19
+    - name: stuff_1
       rect:
         serializedVersion: 2
         x: 32
@@ -303,9 +303,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_20
+    - name: stuff_2
       rect:
         serializedVersion: 2
         x: 64
@@ -313,9 +313,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_21
+    - name: stuff_3
       rect:
         serializedVersion: 2
         x: 96
@@ -323,9 +323,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_22
+    - name: stuff_4
       rect:
         serializedVersion: 2
         x: 128
@@ -333,9 +333,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_23
+    - name: stuff_5
       rect:
         serializedVersion: 2
         x: 160
@@ -343,9 +343,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_24
+    - name: spider_idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -353,19 +353,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_25
+    - name: spider_idle_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 224
+        y: 225
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_26
+    - name: spider_idle_2
       rect:
         serializedVersion: 2
         x: 64
@@ -373,9 +373,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_27
+    - name: spider_idle_3
       rect:
         serializedVersion: 2
         x: 96
@@ -383,9 +383,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_28
+    - name: spider_death_0-a
       rect:
         serializedVersion: 2
         x: 0
@@ -393,9 +393,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_29
+    - name: spider_death_1-a
       rect:
         serializedVersion: 2
         x: 32
@@ -403,19 +403,19 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_30
+    - name: spider_death_2-a
       rect:
         serializedVersion: 2
         x: 64
-        y: 192
+        y: 193
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_31
+    - name: spider_death_3-a
       rect:
         serializedVersion: 2
         x: 96
@@ -423,9 +423,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_32
+    - name: spider_death_4-a
       rect:
         serializedVersion: 2
         x: 128
@@ -433,9 +433,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_33
+    - name: spider_death_0-b
       rect:
         serializedVersion: 2
         x: 0
@@ -443,9 +443,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_34
+    - name: spider_death_1-b
       rect:
         serializedVersion: 2
         x: 32
@@ -453,9 +453,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_35
+    - name: spider_death_2-b
       rect:
         serializedVersion: 2
         x: 64
@@ -463,9 +463,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_36
+    - name: spider_death_3-b
       rect:
         serializedVersion: 2
         x: 96
@@ -473,9 +473,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_37
+    - name: spider_death_4-b
       rect:
         serializedVersion: 2
         x: 128
@@ -483,9 +483,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_38
+    - name: spider_death_5-b
       rect:
         serializedVersion: 2
         x: 160
@@ -493,9 +493,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_39
+    - name: hearth_0
       rect:
         serializedVersion: 2
         x: 0
@@ -503,9 +503,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_40
+    - name: explose_0
       rect:
         serializedVersion: 2
         x: 0
@@ -513,9 +513,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_41
+    - name: explose_1
       rect:
         serializedVersion: 2
         x: 32
@@ -523,9 +523,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_42
+    - name: explose_2
       rect:
         serializedVersion: 2
         x: 64
@@ -533,9 +533,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_43
+    - name: explose_3
       rect:
         serializedVersion: 2
         x: 96
@@ -543,9 +543,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_44
+    - name: explose_4
       rect:
         serializedVersion: 2
         x: 128
@@ -553,9 +553,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_45
+    - name: explose_5
       rect:
         serializedVersion: 2
         x: 160
@@ -563,9 +563,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_46
+    - name: help_0
       rect:
         serializedVersion: 2
         x: 0
@@ -573,7 +573,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: minimalObjects_32x32Tiles_47
       rect:
@@ -583,9 +583,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_48
+    - name: key_0
       rect:
         serializedVersion: 2
         x: 64
@@ -593,9 +593,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_49
+    - name: chest_closed_0
       rect:
         serializedVersion: 2
         x: 96
@@ -603,9 +603,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_50
+    - name: chest_opened_0
       rect:
         serializedVersion: 2
         x: 128
@@ -613,9 +613,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_51
+    - name: info_0
       rect:
         serializedVersion: 2
         x: 160
@@ -623,9 +623,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_52
+    - name: bottle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -633,9 +633,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_53
+    - name: trigger_0
       rect:
         serializedVersion: 2
         x: 32
@@ -643,9 +643,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_54
+    - name: door_opened_0
       rect:
         serializedVersion: 2
         x: 64
@@ -653,9 +653,9 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: minimalObjects_32x32Tiles_55
+    - name: door_closed_0
       rect:
         serializedVersion: 2
         x: 96
@@ -663,7 +663,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
