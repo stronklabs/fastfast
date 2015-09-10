@@ -1,7 +1,4 @@
 ﻿using UnityEngine;
-using UObject = UnityEngine.Object;
-using GObject = UnityEngine.GameObject;
-using URandom = UnityEngine.Random;
 using UnityEngine.UI;
 using UnityEngine.Audio;
 using UnityEngine.Serialization;
